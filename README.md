@@ -1,7 +1,7 @@
 ## Descripton
 
-This Test Unit was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 This App calculate the cost of the trip according to the Tariffs.
+This Test Unit was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.11.
 
 ## Тестовое задание FrontEnd
 'Пассажир, для того, чтобы отправиться в путешествие, из пункта А в пункт Б, расстояние между которыми Х километров, может купить билет у двух компаний перевозчиков: 
