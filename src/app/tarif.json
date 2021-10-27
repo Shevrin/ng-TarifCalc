@@ -1,0 +1,62 @@
+{
+	"Аэрофлот": {
+		"Эконом": {
+			"cost": 4,
+			"freeWeight": 5,
+			"costWeight": 4000,
+			"maxWeight": 20
+		},
+		"Продвинутый": {
+			"cost": 8,
+			"freeWeight": 20,
+			"costWeight": 5000,
+			"maxWeight": 50,
+			"discount": [
+				7,
+				30
+			]
+		},
+		"Люкс": {
+			"cost": 15,
+			"freeWeight": 50,
+			"costWeight": 0,
+			"maxWeight": 50,
+			"discount": [
+				16,
+				30
+			]
+		}
+	},
+	"РЖД": {
+		"Эконом": {
+			"cost": 0.5,
+			"freeWeight": 15,
+			"costWeight": 50,
+			"maxWeight": 50,
+			"discount": [
+				5,
+				50
+			]
+		},
+		"Продвинутый": {
+			"cost": 2,
+			"freeWeight": 20,
+			"costWeight": 50,
+			"maxWeight": 60,
+			"discount": [
+				8,
+				30
+			]
+		},
+		"Люкс": {
+			"cost": 4,
+			"freeWeight": 10000000000000000000000000000,
+			"costWeight": 0,
+			"maxWeight": 60,
+			"discount": [
+				16,
+				20
+			]
+		}
+	}
+}

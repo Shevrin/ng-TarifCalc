@@ -1,0 +1,33 @@
+<div class="grid">
+	<div class="card">
+		<form [formGroup]="dataForm" (submit)="onSubmit()">
+			<div class="input">
+				<label for="distance">Количесвтво километров</label>
+				<input type="string" id="distance" formControlName="distance" />
+			</div>
+			<div class="error" *ngIf="isControlInvalid('distance')">
+				Введите положительное число
+			</div>
+			<div class="input">
+				<label for="age">Возраст</label>
+				<input type="string" id="age" formControlName="age" />
+			</div>
+			<div class="error" *ngIf="isControlInvalid('age')">
+				Введите положительное число
+			</div>
+			<div class="input">
+				<label for="weight">Вес багажа</label>
+				<input type="string" id="weight" formControlName="weight" />
+			</div>
+			<div class="error" *ngIf="isControlInvalid('weight')">
+				Введите положительное число
+			</div>
+			<br>
+			<button type="submit">Расчитать</button>
+		</form>
+		<app-view>
+
+		</app-view>
+
+	</div>
+</div>
